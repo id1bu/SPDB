@@ -1,0 +1,40 @@
+(kicad_sch (version 20230117) (generator "antigravity")
+  (uuid "00000000-0000-0000-0000-0000642f4c06")
+  (paper "A4")
+  (title_block
+    (title "Sheet 6: Debug & Connectivity")
+  )
+
+  (symbol (lib_id "Connector:Conn_01x04_Pin") (at 60 50 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5501")
+    (property "Reference" "J1" (at 60 40 0))
+    (property "Value" "SWD Header" (at 60 60 0))
+  )
+
+  (symbol (lib_id "Connector:Conn_01x03_Pin") (at 120 50 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5502")
+    (property "Reference" "J2" (at 120 40 0))
+    (property "Value" "UART Debug" (at 120 60 0))
+  )
+
+  (symbol (lib_id "Device:LED") (at 60 80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5503")
+    (property "Reference" "D2" (at 60 75 0))
+    (property "Value" "HB LED" (at 60 85 0))
+  )
+
+  (global_label "SWDIO" (shape input) (at 30 50 0) (effects (font (size 1.27))))
+  (global_label "SWCLK" (shape input) (at 30 55 0) (effects (font (size 1.27))))
+  (global_label "UART_TX" (shape input) (at 90 50 0) (effects (font (size 1.27))))
+  (global_label "UART_RX" (shape input) (at 90 55 0) (effects (font (size 1.27))))
+  (global_label "GND" (shape input) (at 60 65 90) (effects (font (size 1.27))))
+
+  (wire (pts (xy 30 50) (xy 57.15 50)) (uuid "00000000-0000-0000-0000-0000642f5504"))
+  (wire (pts (xy 30 55) (xy 57.15 55)) (uuid "00000000-0000-0000-0000-0000642f5505"))
+  (wire (pts (xy 90 50) (xy 117.15 50)) (uuid "00000000-0000-0000-0000-0000642f5506"))
+  (wire (pts (xy 90 55) (xy 117.15 55)) (uuid "00000000-0000-0000-0000-0000642f5507"))
+
+)

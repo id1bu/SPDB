@@ -1,0 +1,56 @@
+(kicad_sch (version 20230117) (generator "antigravity")
+  (uuid "00000000-0000-0000-0000-0000642f4c02")
+  (paper "A4")
+  (title_block
+    (title "Sheet 2: Logic & Processor Core")
+  )
+  (kicad_sch (version 20230117) (generator "antigravity")
+  (uuid "00000000-0000-0000-0000-0000642f4c02")
+  (paper "A4")
+  (title_block
+    (title "Sheet 2: Logic & Processor Core")
+  )
+
+  (symbol (lib_id "MCU_ST_STM32H7:STM32H743ZITx") (at 100 100 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f4c21")
+    (property "Reference" "U1" (at 100 90 0))
+    (property "Value" "STM32H743ZIT6" (at 100 110 0))
+  )
+
+  (symbol (lib_id "Device:C") (at 70 80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5101")
+    (property "Reference" "C10" (at 70 75 0))
+    (property "Value" "100nF" (at 70 85 0))
+  )
+
+  (symbol (lib_id "Device:C") (at 75 80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5102")
+    (property "Reference" "C11" (at 75 75 0))
+    (property "Value" "100nF" (at 75 85 0))
+  )
+
+  (symbol (lib_id "Device:C_Polarized") (at 85 80 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5103")
+    (property "Reference" "C12" (at 85 75 0))
+    (property "Value" "4.7uF" (at 85 85 0))
+  )
+
+  (global_label "+3.3V" (shape input) (at 80 70 90) (effects (font (size 1.27))))
+  (global_label "GND" (shape input) (at 80 90 90) (effects (font (size 1.27))))
+
+  (wire (pts (xy 70 75) (xy 85 75)) (uuid "00000000-0000-0000-0000-0000642f5104"))
+  (wire (pts (xy 70 85) (xy 85 85)) (uuid "00000000-0000-0000-0000-0000642f5105"))
+  (wire (pts (xy 80 75) (xy 80 70)) (uuid "00000000-0000-0000-0000-0000642f5106"))
+  (wire (pts (xy 80 85) (xy 80 90)) (uuid "00000000-0000-0000-0000-0000642f5107"))
+
+  (global_label "SWDIO" (shape input) (at 130 100 0) (effects (font (size 1.27))))
+  (global_label "SWCLK" (shape input) (at 130 105 0) (effects (font (size 1.27))))
+  (global_label "UART_TX" (shape input) (at 130 110 0) (effects (font (size 1.27))))
+  (global_label "UART_RX" (shape input) (at 130 115 0) (effects (font (size 1.27))))
+
+)
+)

@@ -1,0 +1,79 @@
+{
+  "board": {
+    "design_settings": {
+      "boundary_draw_width": 0.05,
+      "copper_line_width": 0.2,
+      "copper_text_italic": false,
+      "copper_text_size_h": 1.5,
+      "copper_text_size_v": 1.5,
+      "copper_text_thickness": 0.3,
+      "copper_text_upright": false,
+      "courtyard_line_width": 0.05,
+      "dimension_precision": 4,
+      "dimension_units": 3,
+      "fab_line_width": 0.1,
+      "fab_text_italic": false,
+      "fab_text_size_h": 1.0,
+      "fab_text_size_v": 1.0,
+      "fab_text_thickness": 0.15,
+      "fab_text_upright": false,
+      "other_line_width": 0.1,
+      "other_text_italic": false,
+      "other_text_size_h": 1.0,
+      "other_text_size_v": 1.0,
+      "other_text_thickness": 0.15,
+      "other_text_upright": false,
+      "pads_line_width": 0.1,
+      "pads_mask_clearance": 0.0,
+      "pads_mask_min_width": 0.0,
+      "silk_line_width": 0.1,
+      "silk_text_italic": false,
+      "silk_text_size_h": 1.0,
+      "silk_text_size_v": 1.0,
+      "silk_text_thickness": 0.15,
+      "silk_text_upright": false,
+      "zones_min_width": 0.2
+    },
+    "layer_presets": []
+  },
+  "meta": {
+    "filename": "SPDB.kicad_pro",
+    "version": 1
+  },
+  "project": {
+    "bom_fmt_presets": [],
+    "bom_fmt_settings": {
+      "field_delimiter": ",",
+      "keep_line_breaks": true,
+      "keep_tabs": false,
+      "name": "Comma separated",
+      "ref_delimiter": ",",
+      "ref_range_delimiter": "",
+      "string_delimiter": "\""
+    },
+    "mcad_back-annotation": {
+      "vertical_justification_offset": 0.0
+    },
+    "sheets": [
+      [
+        "ad75150b-0dbe-4dbc-ba34-b819a2706f3c",
+        ""
+      ]
+    ]
+  },
+  "schematic": {
+    "drawing_settings": {
+      "bus_line_width": 0.46,
+      "dash_line_width": 0.1,
+      "line_width": 0.15,
+      "neutral_color": {
+        "a": 0.0,
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "pin_symbol_size": 2.54,
+      "text_size": 1.27
+    }
+  }
+}

@@ -1,0 +1,62 @@
+(kicad_sch (version 20230117) (generator "antigravity")
+  (uuid "00000000-0000-0000-0000-0000642f4c01")
+  (paper "A4")
+  (title_block
+    (title "Sheet 1: Input & Protection")
+  )
+  (kicad_sch (version 20230117) (generator "antigravity")
+  (uuid "00000000-0000-0000-0000-0000642f4c01")
+  (paper "A4")
+  (title_block
+    (title "Sheet 1: Input & Protection")
+  )
+
+  (hierarchical_label "VIN+" (shape triplet) (at 38.1 50.8 180) (effects (font (size 1.27)) (justify right)))
+  (hierarchical_label "VIN-" (shape triplet) (at 38.1 63.5 180) (effects (font (size 1.27)) (justify right)))
+
+  (symbol (lib_id "Device:Fuse") (at 63.5 50.8 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5001")
+    (property "Reference" "F1" (at 63.5 45.72 0))
+    (property "Value" "15A Main" (at 63.5 55.88 0))
+  )
+
+  (symbol (lib_id "Device:D_TVS") (at 88.9 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5002")
+    (property "Reference" "D1" (at 91.44 55.88 0) (effects (font (size 1.27)) (justify left)))
+    (property "Value" "SMCJ24A" (at 91.44 58.42 0) (effects (font (size 1.27)) (justify left)))
+  )
+
+  (symbol (lib_id "Device:Q_PMOS_GDS") (at 114.3 50.8 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5003")
+    (property "Reference" "Q1" (at 114.3 43.18 0))
+    (property "Value" "DMP3017" (at 114.3 45.72 0))
+  )
+
+  (symbol (lib_id "Device:C_Polarized") (at 139.7 57.15 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid "00000000-0000-0000-0000-0000642f5004")
+    (property "Reference" "C1" (at 142.24 55.88 0) (effects (font (size 1.27)) (justify left)))
+    (property "Value" "470uF" (at 142.24 58.42 0) (effects (font (size 1.27)) (justify left)))
+  )
+
+  (wire (pts (xy 38.1 50.8) (xy 58.42 50.8)) (uuid "00000000-0000-0000-0000-0000642f5005"))
+  (wire (pts (xy 68.58 50.8) (xy 88.9 50.8)) (uuid "00000000-0000-0000-0000-0000642f5006"))
+  (wire (pts (xy 88.9 50.8) (xy 111.76 50.8)) (uuid "00000000-0000-0000-0000-0000642f5007"))
+  (wire (pts (xy 116.84 50.8) (xy 139.7 50.8)) (uuid "00000000-0000-0000-0000-0000642f5008"))
+  (wire (pts (xy 139.7 50.8) (xy 152.4 50.8)) (uuid "00000000-0000-0000-0000-0000642f5009"))
+  
+  (wire (pts (xy 38.1 63.5) (xy 88.9 63.5)) (uuid "00000000-0000-0000-0000-0000642f5010"))
+  (wire (pts (xy 88.9 63.5) (xy 139.7 63.5)) (uuid "00000000-0000-0000-0000-0000642f5011"))
+  (wire (pts (xy 139.7 63.5) (xy 152.4 63.5)) (uuid "00000000-0000-0000-0000-0000642f5012"))
+
+  (wire (pts (xy 88.9 54.61) (xy 88.9 50.8)) (uuid "00000000-0000-0000-0000-0000642f5013"))
+  (wire (pts (xy 88.9 59.69) (xy 88.9 63.5)) (uuid "00000000-0000-0000-0000-0000642f5014"))
+  (wire (pts (xy 139.7 54.61) (xy 139.7 50.8)) (uuid "00000000-0000-0000-0000-0000642f5015"))
+  (wire (pts (xy 139.7 59.69) (xy 139.7 63.5)) (uuid "00000000-0000-0000-0000-0000642f5016"))
+
+  (global_label "V_BUS" (shape input) (at 152.4 50.8 0) (effects (font (size 1.27))))
+  (global_label "GND" (shape input) (at 152.4 63.5 0) (effects (font (size 1.27))))
+)
